@@ -310,6 +310,7 @@
 
     <!-- Page Content -->
     <main>
+      <!-- <FlashMessage/> -->
       <slot></slot>
     </main>
 
@@ -324,6 +325,7 @@ import JetDropdown from "@/Jetstream/Dropdown";
 import JetDropdownLink from "@/Jetstream/DropdownLink";
 import JetNavLink from "@/Jetstream/NavLink";
 import JetResponsiveNavLink from "@/Jetstream/ResponsiveNavLink";
+// import FlashMessage from "../Components/UI/FlashMessage"
 
 export default {
   components: {
@@ -332,6 +334,7 @@ export default {
     JetDropdownLink,
     JetNavLink,
     JetResponsiveNavLink,
+    // FlashMessage,
   },
 
   data() {

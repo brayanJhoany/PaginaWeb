@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +20,17 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
 
+//definir una vista de vue como el home de app
+// Route::get('/', function () {
+//     return Inertia\Inertia::render('Casa');
+// })->name('casa');
+
+
+// Route::get("/flash", function(){
+//     session()->flash("error","Nueva sesion");
+//     return redirect(route("dashboard"));
+// });
+
+// Route::get('/', function () {
+//     return Inertia\Inertia::render('Pagina');
+// })->name('pagina');

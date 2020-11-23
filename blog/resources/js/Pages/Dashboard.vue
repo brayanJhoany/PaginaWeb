@@ -9,7 +9,7 @@
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                    <welcome />
+                     <welcome />
                     <!-- // nos muestra info -->
                     <!-- {{$page}} -->
                     <!-- <inertia-link :href="route('profile.show')"> go to perfil</inertia-link> -->
@@ -30,7 +30,7 @@
     export default {
         components: {
             AppLayout,
-            Welcome,
+            Welcome
         },methods: {
             // Visiata el perfil del usuario
             visitarPerfilUsuario(){
