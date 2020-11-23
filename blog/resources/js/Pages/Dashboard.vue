@@ -10,6 +10,13 @@
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                     <welcome />
+                    <!-- // nos muestra info -->
+                    <!-- {{$page}} -->
+                    <!-- <inertia-link :href="route('profile.show')"> go to perfil</inertia-link> -->
+                    <!-- <p @click="visitarPerfilUsuario">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum dolore ratione consequatur, rem animi? 
+                        Unde impedit explicabo magnam tempora nisi delectus quidem laboriosam ducimus, odio laborum autem sed sunt.
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -24,6 +31,11 @@
         components: {
             AppLayout,
             Welcome,
+        },methods: {
+            // Visiata el perfil del usuario
+            visitarPerfilUsuario(){
+                this.$inertia.visit(this.route('profile.show'));
+            }
         },
     }
 </script>

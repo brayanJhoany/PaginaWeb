@@ -3667,12 +3667,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     AppLayout: _Layouts_AppLayout__WEBPACK_IMPORTED_MODULE_0__["default"],
     Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  methods: {
+    // Visiata el perfil del usuario
+    visitarPerfilUsuario: function visitarPerfilUsuario() {
+      this.$inertia.visit(this.route('profile.show'));
+    }
   }
 });
 
