@@ -61406,7 +61406,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nError: Failed to find 'bootstrap/dist/css/bootstrap.css'\n  in [\n    C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\resources\\css\n  ]\n    at C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\node_modules\\postcss-import\\lib\\resolve-id.js:35:13\n    at C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\xampp\\htdocs\\Proyectos Laravel\\PaginaWeb\\blog\\node_modules\\postcss-loader\\src\\index.js:208:9");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -64047,7 +64047,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var laravel_jetstream__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(laravel_jetstream__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var portal_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! portal-vue */ "./node_modules/portal-vue/dist/portal-vue.common.js");
 /* harmony import */ var portal_vue__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(portal_vue__WEBPACK_IMPORTED_MODULE_3__);
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'bootstrap-vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
@@ -64055,13 +64054,7 @@ __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 
 
 
- //integracion de Bootstrap
 
- // Install BootstrapVue
-
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(!(function webpackMissingModule() { var e = new Error("Cannot find module 'bootstrap-vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())); // Optionally install the BootstrapVue icon components plugin
-
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(!(function webpackMissingModule() { var e = new Error("Cannot find module 'bootstrap-vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.mixin({
   methods: {
     route: window.route
