@@ -38,16 +38,16 @@ class FortifyServiceProvider extends ServiceProvider
         });
         //Recuperacion de contraseña
         Fortify::requestPasswordResetLinkView(function(){
-            return Inertia::render('Auth/RequestPasswordReset')->toResponse(request());
+            return Inertia::render('Auth/PasswordReset')->toResponse(request());
         });
         //Cambiar la contraseña.
         Fortify::resetPasswordView(function(){
             return Inertia::render('Auth/ResetPassword')->toResponse(request());
         });
         //Verificar Email
-        // Fortify::verifyEmailView(function(){
-        //     return Inertia::render('Auth/VerifyEmail')->toResponse(request());
-        // });
+         Fortify::verifyEmailView(function(){
+             return Inertia::render('Auth/VerifyEmail')->toResponse(request());
+         });
 
         Fortify::createUsersUsing(CreateNewUser::class);
         Fortify::updateUserProfileInformationUsing(UpdateUserProfileInformation::class);
