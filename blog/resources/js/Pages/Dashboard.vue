@@ -1,5 +1,5 @@
 <template>
-    <app-layout>
+    <backend-layout>
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 Dashboard
@@ -14,21 +14,23 @@
                     <!-- {{$page}} -->
                     <!-- <inertia-link :href="route('profile.show')"> go to perfil</inertia-link> -->
                     <!-- <p @click="visitarPerfilUsuario">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum dolore ratione consequatur, rem animi? 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum dolore ratione consequatur, rem animi?
                         Unde impedit explicabo magnam tempora nisi delectus quidem laboriosam ducimus, odio laborum autem sed sunt.
                     </p> -->
                 </div>
             </div>
         </div>
-    </app-layout>
+    </backend-layout>
 </template>
 
 <script>
     import AppLayout from '@/Layouts/AppLayout'
     import Welcome from '@/Jetstream/Welcome'
+    import BackendLayout from "@/Layouts/BackendLayout";
 
     export default {
         components: {
+            BackendLayout,
             AppLayout,
             Welcome
         },methods: {
