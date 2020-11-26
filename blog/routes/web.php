@@ -21,9 +21,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 //definir una vista de vue como el home de app
-// Route::get('/', function () {
-//     return Inertia\Inertia::render('Casa');
-// })->name('casa');
+Route::get('/home', function () {
+    return Inertia\Inertia::render('VistaPrincipal');
+})->name('inicio');
 
 
 // Route::get("/flash", function(){
