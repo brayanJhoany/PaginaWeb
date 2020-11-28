@@ -6,8 +6,8 @@
 @import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 .body-bg {
-    background-color: #9921e8;
-    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+    background-color: #84b1d6;
+    /* background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%); */
 }
 
 
