@@ -6,10 +6,6 @@
 
 <script>
 export default {
-
+    name:'FooterPag',
 }
 </script>
-
-<style>
-
-</style>

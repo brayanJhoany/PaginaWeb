@@ -4,7 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Publicacion;
 use Illuminate\Database\Eloquent\Factories\Factory;
-
+use App\Models\User;
 class PublicacionFactory extends Factory
 {
     /**
@@ -22,7 +22,8 @@ class PublicacionFactory extends Factory
     public function definition()
     {
         return [
-            
+            "user_id" => User::all()->random()->id,
+
         ];
     }
 }
