@@ -38,7 +38,7 @@ class FortifyServiceProvider extends ServiceProvider
         });
         //Recuperacion de contraseña
         Fortify::requestPasswordResetLinkView(function(){
-            return Inertia::render('Auth/PasswordReset')->toResponse(request());
+            return Inertia::render('Auth/PasswordResetLink')->toResponse(request());
         });
         //Cambiar la contraseña.
         Fortify::resetPasswordView(function(){
