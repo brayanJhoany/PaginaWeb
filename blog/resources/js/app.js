@@ -16,7 +16,7 @@ Vue.use(PortalVue);
 const app = document.getElementById('app');
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-
+import fontawesome from '@fortawesome/fontawesome-free/js/all.js';
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
